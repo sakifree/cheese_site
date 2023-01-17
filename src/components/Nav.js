@@ -7,7 +7,7 @@ const Nav = (props) => {
                 <span>Cheeses</span>
             </Link>
             <Link to="create">
-                <span>Create A Cheese</span>
+                <span>New Cheese</span>
             </Link>
         </div>
     )

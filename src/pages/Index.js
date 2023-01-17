@@ -6,7 +6,6 @@ const Index = (props) => {
     
     return (
         <div>
-            <h2>Cheeses</h2>
             <div className="cheeses-container">
                 {cheeses.map(cheese => (
                     <div className="card" key={cheese._id}>
