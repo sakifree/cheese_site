@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  background-color: darkorange;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+.nav a:hover {
+  color: paleturquoise;
+}
+
+.cheeses-container {
+  display: flex;
+  margin: 10px;
+}
+
+.cheeses-container img {
+  height: 150px;
+  width: 200px;
+  padding: 10px;
+}
+
+.cheese-container img {
+  height: 200px;
+  width: auto;
+}
